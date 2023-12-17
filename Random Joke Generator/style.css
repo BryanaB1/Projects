@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/laughing.png);
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.main_container{
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
+    padding: 50px 20px;
+    max-width: 100%;
+    width: 800px;
+    text-align: center;
+}
+
+h3{
+    margin: 0;
+    letter-spacing: 2px;
+    opacity: 0.5;
+}
+
+.joke{
+    font-size: 30px;
+    color: black;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.btn{
+    background-color: aliceblue;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
+    color: darkolivegreen;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 14px, 40px;
+}
+
+.btn:active{
+    /*causes button to shrink a little once clicked*/
+    transform: scale(.98);
+}
+
+.fac{
+    /*edits the laughing face*/
+    margin-left: 5px;
+}
